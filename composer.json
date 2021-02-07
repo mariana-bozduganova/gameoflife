@@ -1,0 +1,17 @@
+{
+    "name": "mariana/gameoflife",
+    "description": "Game Of Life",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GOL\\": "src/"
+        }
+    }
+}
